@@ -1,0 +1,2022 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/deivisfelipe/ontologies/2022/9/LeagueOfOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/deivisfelipe/ontologies/2022/9/LeagueOfOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/deivisfelipe/ontologies/2022/9/LeagueOfOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Assassino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atirador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atributo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Básico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campeão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controlador_ou_Suporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divisão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feitiço"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inicial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jogador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lendário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lutador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mago"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mapa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mítico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organização"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Partida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posição"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proplayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prêmio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tanque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Épico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Únicos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Esta_No_Elo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Faz_Item"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Faz_Parte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Faz_Runa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Joga_Na_Partida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Joga_Na_Posição"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Joga_No_Time"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Joga_com"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#No_Mapa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tem_Atributo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Usa_Feitiço"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcance_Assassino"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcance_Atirador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcance_Controlador_ou_Suporte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcance_Lutador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcance_Mago"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcance_Tanque"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alcance_Únicos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Colocação_Prêmio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Data_Partida"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duração_Partida"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Icone_Runa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Idade_Coach"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Idade_Proplayer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lado_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Logo_Divisão"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Logo_Organização"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Logo_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nick_Jogador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nickname_Proplayer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nivel_Jogador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Atributo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Básico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Coach"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Divisão"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Elo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Feitiço"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Inicial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Item"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Lendário"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Liga"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Mapa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Mítico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Organização"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Posição"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Runa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome_Épico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Numero_De_Jogadores_Mapa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Numero_de_Representantes_Liga"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Origem_Assassino"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Origem_Atirador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Origem_Controlador_ou_Suporte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Origem_Lutador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Origem_Mago"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Origem_Tanque"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Origem_Únicos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pontuação_Elo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Preço_Básico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Preço_Campeão"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Preço_Inicial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Preço_Item"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Preço_Lendário"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Preço_mítico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Preço_Épico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Resultado_Partida"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tem_Ativa_Item"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tem_Redução_de_Gold_Posição"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tempo_Recarga_Feitiço"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Valor_Atributo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Valor_Prêmio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acelaração_de_habildiade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acerto_Critico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Akali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amumu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Annie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Armadura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ashe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barreira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blitzcrank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Braçadeira_Cristalina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CBLOL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caitlyn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dano_de_Ataque"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Darius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Determinação"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dominação"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Efeitos_ao_contato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feitiçaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hino_Bélico_de_Shurelya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Illaoi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inspiração"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jungler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ladrão_de_Almas_de_Mejai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lulu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lâmina_Cálida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malphite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mana_e_Regeneração"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Movimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nasus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penetração_de_armadura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penetração_mágica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poder_de_habilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Precisão"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pérola_do_Rejuvenescimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Resistência_mágica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rorgledsom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roubo_de_vida_e_vampirismo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Top"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vayne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Veigar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Velocidade_de_ataque"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vida_e_Regeneração"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cho’Gath"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kha’zix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summoner&apos;s_Rift"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Assassino"/>
+        <Class IRI="#Campeão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assassino"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Alcance_Assassino"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atirador"/>
+        <Class IRI="#Campeão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atirador"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Alcance_Atirador"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atributo"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Valor_Atributo"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Básico"/>
+        <Class IRI="#Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Básico"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Preço_Básico"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coach"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controlador_ou_Suporte"/>
+        <Class IRI="#Campeão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controlador_ou_Suporte"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Alcance_Controlador_ou_Suporte"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divisão"/>
+        <Class IRI="#Liga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elo"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Nome_Elo"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feitiço"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Nome_Feitiço"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inicial"/>
+        <Class IRI="#Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inicial"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Preço_Inicial"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jogador"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#Esta_No_Elo"/>
+            <Class IRI="#Elo"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jogador"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Nivel_Jogador"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lendário"/>
+        <Class IRI="#Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lendário"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Preço_Lendário"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lutador"/>
+        <Class IRI="#Campeão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lutador"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Alcance_Lutador"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mago"/>
+        <Class IRI="#Campeão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mago"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Alcance_Mago"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mapa"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome_Mapa"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mítico"/>
+        <Class IRI="#Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mítico"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Preço_mítico"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organização"/>
+        <Class IRI="#Liga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organização"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome_Organização"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posição"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome_Posição"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proplayer"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prêmio"/>
+        <Class IRI="#Divisão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Runa"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Icone_Runa"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tanque"/>
+        <Class IRI="#Campeão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tanque"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Alcance_Tanque"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#Divisão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Épico"/>
+        <Class IRI="#Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Épico"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Nome_Épico"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Únicos"/>
+        <Class IRI="#Campeão"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Únicos"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Alcance_Únicos"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Acelaração_de_habildiade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Acerto_Critico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Posição"/>
+        <NamedIndividual IRI="#Adc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Assassino"/>
+        <NamedIndividual IRI="#Akali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tanque"/>
+        <NamedIndividual IRI="#Amumu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mago"/>
+        <NamedIndividual IRI="#Annie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Armadura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atirador"/>
+        <NamedIndividual IRI="#Ashe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feitiço"/>
+        <NamedIndividual IRI="#Barreira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Únicos"/>
+        <NamedIndividual IRI="#Blitzcrank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Épico"/>
+        <NamedIndividual IRI="#Braçadeira_Cristalina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#CBLOL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atirador"/>
+        <NamedIndividual IRI="#Caitlyn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Dano_de_Ataque"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lutador"/>
+        <NamedIndividual IRI="#Darius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runa"/>
+        <NamedIndividual IRI="#Determinação"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runa"/>
+        <NamedIndividual IRI="#Dominação"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Efeitos_ao_contato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runa"/>
+        <NamedIndividual IRI="#Feitiçaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feitiço"/>
+        <NamedIndividual IRI="#Flash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Elo"/>
+        <NamedIndividual IRI="#Gold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mítico"/>
+        <NamedIndividual IRI="#Hino_Bélico_de_Shurelya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lutador"/>
+        <NamedIndividual IRI="#Illaoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runa"/>
+        <NamedIndividual IRI="#Inspiração"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Posição"/>
+        <NamedIndividual IRI="#Jungler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lendário"/>
+        <NamedIndividual IRI="#Ladrão_de_Almas_de_Mejai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tanque"/>
+        <NamedIndividual IRI="#Leona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controlador_ou_Suporte"/>
+        <NamedIndividual IRI="#Lulu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mago"/>
+        <NamedIndividual IRI="#Lux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inicial"/>
+        <NamedIndividual IRI="#Lâmina_Cálida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tanque"/>
+        <NamedIndividual IRI="#Malphite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Mana_e_Regeneração"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Posição"/>
+        <NamedIndividual IRI="#Mid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Movimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controlador_ou_Suporte"/>
+        <NamedIndividual IRI="#Nami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lutador"/>
+        <NamedIndividual IRI="#Nasus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Penetração_de_armadura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Penetração_mágica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Poder_de_habilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Runa"/>
+        <NamedIndividual IRI="#Precisão"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Básico"/>
+        <NamedIndividual IRI="#Pérola_do_Rejuvenescimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Resistência_mágica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jogador"/>
+        <NamedIndividual IRI="#Rorgledsom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Roubo_de_vida_e_vampirismo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Únicos"/>
+        <NamedIndividual IRI="#Singed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controlador_ou_Suporte"/>
+        <NamedIndividual IRI="#Sona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Posição"/>
+        <NamedIndividual IRI="#Sup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Posição"/>
+        <NamedIndividual IRI="#Top"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atirador"/>
+        <NamedIndividual IRI="#Vayne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mago"/>
+        <NamedIndividual IRI="#Veigar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Velocidade_de_ataque"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lutador"/>
+        <NamedIndividual IRI="#Vi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atributo"/>
+        <NamedIndividual IRI="#Vida_e_Regeneração"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Assassino"/>
+        <NamedIndividual IRI="#Zed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Únicos"/>
+        <NamedIndividual IRI="#Cho’Gath"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Assassino"/>
+        <NamedIndividual IRI="#Kha’zix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mapa"/>
+        <NamedIndividual IRI="#Summoner&apos;s_Rift"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Esta_No_Elo"/>
+        <NamedIndividual IRI="#Rorgledsom"/>
+        <NamedIndividual IRI="#Gold"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Acelaração_de_habildiade"/>
+        <Literal>Acelaração de habildiade</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Acerto_Critico"/>
+        <Literal>Acerto Critico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Posição"/>
+        <NamedIndividual IRI="#Adc"/>
+        <Literal>Adc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Akali"/>
+        <Literal>Akali</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Amumu"/>
+        <Literal>Amumu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Annie"/>
+        <Literal>Annie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Armadura"/>
+        <Literal>Armadura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome"/>
+        <NamedIndividual IRI="#Ashe"/>
+        <Literal>Ashe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Feitiço"/>
+        <NamedIndividual IRI="#Barreira"/>
+        <Literal>Barreira</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Tempo_Recarga_Feitiço"/>
+        <NamedIndividual IRI="#Barreira"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Épico"/>
+        <NamedIndividual IRI="#Braçadeira_Cristalina"/>
+        <Literal>Braçadeira Cristalina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Preço_Épico"/>
+        <NamedIndividual IRI="#Braçadeira_Cristalina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Logo_Organização"/>
+        <NamedIndividual IRI="#CBLOL"/>
+        <Literal>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.techtudo.com.br%2Fnoticias%2F2020%2F11%2Fcblol-2021-ganha-nova-logo-e-visual-com-sistema-de-franquias-veja-esports.ghtml&amp;psig=AOvVaw3eIyNr-sjZS2ll2Rj7QGun&amp;ust=1674099019439000&amp;source=images&amp;cd=vfe&amp;ved=0CBAQjRxqFwoTCKDDv7aW0PwCFQAAAAAdAAAAABAI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Organização"/>
+        <NamedIndividual IRI="#CBLOL"/>
+        <Literal>CBLOL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Dano_de_Ataque"/>
+        <Literal>Dano de Ataque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Runa"/>
+        <NamedIndividual IRI="#Determinação"/>
+        <Literal>Determinação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Runa"/>
+        <NamedIndividual IRI="#Dominação"/>
+        <Literal>Dominação</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Efeitos_ao_contato"/>
+        <Literal>Efeitos ao contato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Runa"/>
+        <NamedIndividual IRI="#Feitiçaria"/>
+        <Literal>Feitiçaria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Feitiço"/>
+        <NamedIndividual IRI="#Flash"/>
+        <Literal>Flash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Tempo_Recarga_Feitiço"/>
+        <NamedIndividual IRI="#Flash"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Elo"/>
+        <NamedIndividual IRI="#Gold"/>
+        <Literal>Gold</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pontuação_Elo"/>
+        <NamedIndividual IRI="#Gold"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">85</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Mítico"/>
+        <NamedIndividual IRI="#Hino_Bélico_de_Shurelya"/>
+        <Literal>Hino Bélico de Shurelya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Preço_mítico"/>
+        <NamedIndividual IRI="#Hino_Bélico_de_Shurelya"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Runa"/>
+        <NamedIndividual IRI="#Inspiração"/>
+        <Literal>Inspiração</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Posição"/>
+        <NamedIndividual IRI="#Jungler"/>
+        <Literal>Jungler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Lendário"/>
+        <NamedIndividual IRI="#Ladrão_de_Almas_de_Mejai"/>
+        <Literal>Ladrão de Almas de Mejai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Preço_Lendário"/>
+        <NamedIndividual IRI="#Ladrão_de_Almas_de_Mejai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Inicial"/>
+        <NamedIndividual IRI="#Lâmina_Cálida"/>
+        <Literal>Lâmina Cálida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Preço_Inicial"/>
+        <NamedIndividual IRI="#Lâmina_Cálida"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Mana_e_Regeneração"/>
+        <Literal>Mana e Regeneração</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Posição"/>
+        <NamedIndividual IRI="#Mid"/>
+        <Literal>Mid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Movimento"/>
+        <Literal>Movimento</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Penetração_de_armadura"/>
+        <Literal>Penetração de armadura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Penetração_mágica"/>
+        <Literal>Penetração mágica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Poder_de_habilidade"/>
+        <Literal>Poder de habilidade</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Runa"/>
+        <NamedIndividual IRI="#Precisão"/>
+        <Literal>Precisão</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Básico"/>
+        <NamedIndividual IRI="#Pérola_do_Rejuvenescimento"/>
+        <Literal>Pérola do Rejuvenescimento</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Preço_Básico"/>
+        <NamedIndividual IRI="#Pérola_do_Rejuvenescimento"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Resistência_mágica"/>
+        <Literal>Resistência mágica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nick_Jogador"/>
+        <NamedIndividual IRI="#Rorgledsom"/>
+        <Literal>Rorgledsom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nivel_Jogador"/>
+        <NamedIndividual IRI="#Rorgledsom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">450</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Roubo_de_vida_e_vampirismo"/>
+        <Literal>Roubo de vida e vampirismo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Posição"/>
+        <NamedIndividual IRI="#Sup"/>
+        <Literal>Sup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Posição"/>
+        <NamedIndividual IRI="#Top"/>
+        <Literal>Top</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Velocidade_de_ataque"/>
+        <Literal>Velocidade de ataque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <NamedIndividual IRI="#Vida_e_Regeneração"/>
+        <Literal>Vida e Regeneração</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nome_Mapa"/>
+        <NamedIndividual IRI="#Summoner&apos;s_Rift"/>
+        <Literal>Summoner&apos;s Rift</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Numero_De_Jogadores_Mapa"/>
+        <NamedIndividual IRI="#Summoner&apos;s_Rift"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Esta_No_Elo"/>
+        <Class IRI="#Jogador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Faz_Item"/>
+        <Class IRI="#Campeão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Faz_Parte"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Faz_Runa"/>
+        <Class IRI="#Campeão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Joga_Na_Partida"/>
+        <Class IRI="#Campeão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Joga_Na_Posição"/>
+        <Class IRI="#Campeão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Joga_No_Time"/>
+        <Class IRI="#Jogador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Joga_com"/>
+        <Class IRI="#Jogador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#No_Mapa"/>
+        <Class IRI="#Partida"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Atributo"/>
+        <Class IRI="#Campeão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Atributo"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Usa_Feitiço"/>
+        <Class IRI="#Campeão"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Esta_No_Elo"/>
+        <Class IRI="#Elo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Faz_Item"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Faz_Parte"/>
+        <Class IRI="#Partida"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Faz_Runa"/>
+        <Class IRI="#Runa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Joga_Na_Partida"/>
+        <Class IRI="#Partida"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Joga_Na_Posição"/>
+        <Class IRI="#Posição"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Joga_No_Time"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Joga_com"/>
+        <Class IRI="#Campeão"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#No_Mapa"/>
+        <Class IRI="#Mapa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Atributo"/>
+        <Class IRI="#Atributo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Usa_Feitiço"/>
+        <Class IRI="#Feitiço"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Colocação_Prêmio"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Idade_Proplayer"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Logo_Organização"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Nome_Coach"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Nome_Divisão"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Nome_Liga"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Nome_Time"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Numero_de_Representantes_Liga"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Valor_Prêmio"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcance_Assassino"/>
+        <Class IRI="#Assassino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcance_Atirador"/>
+        <Class IRI="#Atirador"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcance_Controlador_ou_Suporte"/>
+        <Class IRI="#Controlador_ou_Suporte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcance_Lutador"/>
+        <Class IRI="#Lutador"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcance_Mago"/>
+        <Class IRI="#Mago"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcance_Tanque"/>
+        <Class IRI="#Tanque"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alcance_Únicos"/>
+        <Class IRI="#Únicos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Colocação_Prêmio"/>
+        <Class IRI="#Prêmio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Data_Partida"/>
+        <Class IRI="#Partida"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Duração_Partida"/>
+        <Class IRI="#Partida"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Icone_Runa"/>
+        <Class IRI="#Runa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Idade_Coach"/>
+        <Class IRI="#Coach"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Idade_Proplayer"/>
+        <Class IRI="#Proplayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lado_Time"/>
+        <Class IRI="#Time"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Logo_Divisão"/>
+        <Class IRI="#Divisão"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Logo_Organização"/>
+        <Class IRI="#Organização"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Logo_Time"/>
+        <Class IRI="#Time"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nick_Jogador"/>
+        <Class IRI="#Jogador"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nickname_Proplayer"/>
+        <Class IRI="#Proplayer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nivel_Jogador"/>
+        <Class IRI="#Jogador"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Campeão"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <Class IRI="#Atributo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Básico"/>
+        <Class IRI="#Básico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Coach"/>
+        <Class IRI="#Coach"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Divisão"/>
+        <Class IRI="#Divisão"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Elo"/>
+        <Class IRI="#Elo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Feitiço"/>
+        <Class IRI="#Feitiço"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Inicial"/>
+        <Class IRI="#Inicial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Item"/>
+        <Class IRI="#Item"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Lendário"/>
+        <Class IRI="#Lendário"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Liga"/>
+        <Class IRI="#Liga"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Mapa"/>
+        <Class IRI="#Mapa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Mítico"/>
+        <Class IRI="#Mítico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Organização"/>
+        <Class IRI="#Organização"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Posição"/>
+        <Class IRI="#Posição"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Runa"/>
+        <Class IRI="#Runa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Time"/>
+        <Class IRI="#Time"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome_Épico"/>
+        <Class IRI="#Épico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero_De_Jogadores_Mapa"/>
+        <Class IRI="#Mapa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero_de_Representantes_Liga"/>
+        <Class IRI="#Liga"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origem_Assassino"/>
+        <Class IRI="#Assassino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origem_Atirador"/>
+        <Class IRI="#Atirador"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origem_Controlador_ou_Suporte"/>
+        <Class IRI="#Controlador_ou_Suporte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origem_Lutador"/>
+        <Class IRI="#Lutador"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origem_Mago"/>
+        <Class IRI="#Mago"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origem_Tanque"/>
+        <Class IRI="#Tanque"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origem_Únicos"/>
+        <Class IRI="#Únicos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pontuação_Elo"/>
+        <Class IRI="#Elo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Preço_Básico"/>
+        <Class IRI="#Básico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Preço_Campeão"/>
+        <Class IRI="#Campeão"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Preço_Inicial"/>
+        <Class IRI="#Inicial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Preço_Item"/>
+        <Class IRI="#Item"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Preço_Lendário"/>
+        <Class IRI="#Lendário"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Preço_mítico"/>
+        <Class IRI="#Mítico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Preço_Épico"/>
+        <Class IRI="#Épico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Resultado_Partida"/>
+        <Class IRI="#Partida"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tem_Ativa_Item"/>
+        <Class IRI="#Item"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tem_Redução_de_Gold_Posição"/>
+        <Class IRI="#Posição"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tempo_Recarga_Feitiço"/>
+        <Class IRI="#Feitiço"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Valor_Atributo"/>
+        <Class IRI="#Atributo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Valor_Prêmio"/>
+        <Class IRI="#Prêmio"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcance_Assassino"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcance_Atirador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcance_Controlador_ou_Suporte"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcance_Lutador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcance_Mago"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcance_Tanque"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alcance_Únicos"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Colocação_Prêmio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Data_Partida"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Duração_Partida"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Icone_Runa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Idade_Coach"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Idade_Proplayer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lado_Time"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Logo_Divisão"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Logo_Organização"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Logo_Time"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nick_Jogador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nickname_Proplayer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nivel_Jogador"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Atributo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Básico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Coach"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Divisão"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Elo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Feitiço"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Inicial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Item"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Lendário"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Liga"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Mapa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Mítico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Organização"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Posição"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Runa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Time"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome_Épico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Numero_De_Jogadores_Mapa"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Numero_de_Representantes_Liga"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origem_Assassino"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origem_Atirador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origem_Controlador_ou_Suporte"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origem_Lutador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origem_Mago"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origem_Tanque"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origem_Únicos"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pontuação_Elo"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Preço_Básico"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Preço_Campeão"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Preço_Inicial"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Preço_Item"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Preço_Lendário"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Preço_mítico"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Preço_Épico"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Resultado_Partida"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tem_Ativa_Item"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tem_Redução_de_Gold_Posição"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tempo_Recarga_Feitiço"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Valor_Atributo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Valor_Prêmio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Assassino</IRI>
+        <Literal xml:lang="pt">Campeões com foco em matar o inimigo de forma muito rapida, geralmente usa das as skill para matar e depois demora para matar de novo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Assassino</IRI>
+        <Literal xml:lang="pt">Assassino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Atirador</IRI>
+        <Literal xml:lang="pt">Campeões que atacam de longe, geramente tem um grande dano por segundo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atirador</IRI>
+        <Literal xml:lang="pt">Atirador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Atributo</IRI>
+        <Literal xml:lang="pt">Alguma caracteristica de um item ou personagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atributo</IRI>
+        <Literal xml:lang="pt">Atributo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Básico</IRI>
+        <Literal xml:lang="pt">Básico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Campeão</IRI>
+        <Literal xml:lang="pt">Personagem que o jogador vai jogar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Campeão</IRI>
+        <Literal xml:lang="pt">Campeão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Controlador_ou_Suporte</IRI>
+        <Literal xml:lang="pt">Da escudo, vida ou causa controle de grupo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Controlador_ou_Suporte</IRI>
+        <Literal xml:lang="pt">Controlador ou Suporte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Elo</IRI>
+        <Literal xml:lang="pt">Ranque em que uma conta está</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Elo</IRI>
+        <Literal xml:lang="pt">Elo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Feitiço</IRI>
+        <Literal xml:lang="pt">Feitiço que o jogador pode usar na partida, ele pode usar só dois deles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feitiço</IRI>
+        <Literal xml:lang="pt">Feitiço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Inicial</IRI>
+        <Literal xml:lang="pt">Inicial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Item</IRI>
+        <Literal xml:lang="pt">Item que o jogador pode comprar para o campeão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Item</IRI>
+        <Literal xml:lang="pt">Item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jogador</IRI>
+        <Literal xml:lang="pt">Conta de uma pessoa que joga League of Legends</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Jogador</IRI>
+        <Literal xml:lang="pt">Jogador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lendário</IRI>
+        <Literal xml:lang="pt">Lendário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lutador</IRI>
+        <Literal xml:lang="pt">Causa bastante dano, porem ataca de perto, geralmente é um campeão com bastante vida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lutador</IRI>
+        <Literal xml:lang="pt">Lutador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mago</IRI>
+        <Literal xml:lang="pt">Campeões com bastante dano mágico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mago</IRI>
+        <Literal xml:lang="pt">Mago</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mapa</IRI>
+        <Literal xml:lang="pt">Lugar onde as partidas são jogadas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mapa</IRI>
+        <Literal xml:lang="pt">Mapa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mítico</IRI>
+        <Literal xml:lang="pt">Mítico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nome</IRI>
+        <Literal>Nome Campeão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Partida</IRI>
+        <Literal xml:lang="pt">Uma partida do jogo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Partida</IRI>
+        <Literal xml:lang="pt">Partida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Posição</IRI>
+        <Literal xml:lang="pt">Lugar do mapa onde o campeão é normalmente jogado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Posição</IRI>
+        <Literal xml:lang="pt">Posição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Runa</IRI>
+        <Literal xml:lang="pt">Bonus para a partida, definido antes do começo da partida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Runa</IRI>
+        <Literal xml:lang="pt">Runa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tanque</IRI>
+        <Literal xml:lang="pt">Campeões com muita vida que aguenta muito dano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tanque</IRI>
+        <Literal xml:lang="pt">Tanque</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Time</IRI>
+        <Literal xml:lang="pt">Time que esta jogando uma partida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Time</IRI>
+        <Literal xml:lang="pt">Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Épico</IRI>
+        <Literal xml:lang="pt">Épico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Únicos</IRI>
+        <Literal xml:lang="pt">Campeões com jogabilidades únicas e não se encaixam e nenhum estilo de jogo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Únicos</IRI>
+        <Literal xml:lang="pt">Únicos</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
